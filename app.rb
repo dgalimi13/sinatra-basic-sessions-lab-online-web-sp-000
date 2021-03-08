@@ -17,7 +17,7 @@ post '/checkout' do
 params[:item]
  
  
- session["item"] = "item"
+ session["item"] = "socks"
   @session = session
 
 
