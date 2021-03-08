@@ -12,6 +12,7 @@ get '/' do
 end
 
 post '/checkout' do
+  binding.pry
 
 params[:item]
  
