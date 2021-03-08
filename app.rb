@@ -14,7 +14,7 @@ end
 post '/checkout' do
  # binding.pry
 
-params[:item]
+@item = params[:item]
  
  
  session["item"] = "socks"
