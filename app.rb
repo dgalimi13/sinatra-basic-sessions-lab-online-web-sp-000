@@ -21,7 +21,7 @@ params[:item]
   @session = session
 
 
-erb :keep
+erb :output
 end
 
 end
