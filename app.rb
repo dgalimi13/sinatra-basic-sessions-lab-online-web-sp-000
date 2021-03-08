@@ -11,7 +11,7 @@ get '/' do
   erb :index
 end
 
-post '/checkout'
+post '/checkout' do
 
 params[:item]
  
@@ -23,4 +23,3 @@ params[:item]
 erb :index
 end
 
-end
