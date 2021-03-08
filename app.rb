@@ -14,14 +14,14 @@ end
 post '/checkout' do
  # binding.pry
 
-@item = params[:item]
+params[:item]
  
  
  session["item"] = "socks"
   @session = session
 
 
-erb :index
+erb :keep
 end
 
 end
